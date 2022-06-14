@@ -1,0 +1,25 @@
+.header {
+  margin-bottom: 5rem;
+  nav {
+    .list {
+      list-style: none;
+      height: 5rem;
+      background-color: $color-nav;
+      font-size: 2rem;
+      display: flex;
+      gap: 2rem;
+      justify-content: end;
+      align-items: center;
+      padding-right: 2rem;
+      color: $color-link;
+    }
+  }
+
+  &__header-background {
+    height: 50rem;
+    background-image: url("../src/images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include flex;
+  }
+}

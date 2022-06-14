@@ -1,0 +1,19 @@
+.footer {
+  background-color: $color-footer;
+  padding: 2rem;
+  text-align: center;
+
+  a {
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    color: $color-nav;
+
+    &:link,
+    &:visited {
+      text-decoration: none;
+      font-size: 2.8rem;
+    }
+  }
+}
