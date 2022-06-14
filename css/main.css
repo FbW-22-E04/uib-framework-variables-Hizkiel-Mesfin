@@ -61,9 +61,6 @@ body {
 
 .section-bottom {
   margin: 0 3rem 3rem 3rem;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 2rem;
 }
 .section-bottom__aside {
   border: 4px solid #0000ff;
@@ -87,6 +84,12 @@ body {
 .tertiary-heading {
   font-size: 2.2rem;
   margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 2rem;
 }
 
 .footer {
