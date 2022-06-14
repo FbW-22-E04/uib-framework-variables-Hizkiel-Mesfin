@@ -136,9 +136,11 @@ body {
   }
   .secondary-heading {
     font-size: 3rem;
+    text-align: center;
   }
   .box-para {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
   .section-top .flex {
     flex-direction: column;
@@ -146,9 +148,12 @@ body {
   }
   .section-top__box {
     width: 80%;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
   }
   .section-top__box img {
-    width: 40%;
+    width: 100%;
   }
   .section-bottom {
     display: grid;
